@@ -1,0 +1,46 @@
+{
+  "title": "Inteligencia OSINT",
+  "subtitle": "Recopilación de Inteligencia de Fuentes Abiertas",
+  "lookup": {
+    "placeholder": "Dominio o Dirección IP",
+    "whois": "Búsqueda WHOIS",
+    "dns": "Registros DNS",
+    "geoip": "Geolocalización IP",
+    "subdomains": "Enumeración de Subdominios"
+  },
+  "whois": {
+    "title": "Información WHOIS",
+    "registrant": "Registrante",
+    "org": "Organización",
+    "created": "Fecha de Creación",
+    "expires": "Fecha de Expiración",
+    "updated": "Última Actualización",
+    "nameServers": "Servidores de Nombres"
+  },
+  "dns": {
+    "title": "Registros DNS",
+    "type": "Tipo",
+    "value": "Valor",
+    "ttl": "TTL"
+  },
+  "geoip": {
+    "title": "Geolocalización",
+    "country": "País",
+    "city": "Ciudad",
+    "isp": "ISP",
+    "asn": "ASN",
+    "coordinates": "Coordenadas"
+  },
+  "subdomains": {
+    "title": "Subdominios Descubiertos",
+    "domain": "Subdominio",
+    "ip": "Dirección IP",
+    "status": "Estado"
+  },
+  "export": "Exportar JSON",
+  "results": {
+    "title": "Resultados de Análisis",
+    "timeline": "Línea de Tiempo",
+    "sources": "Fuentes Consultadas"
+  }
+}

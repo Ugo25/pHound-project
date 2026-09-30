@@ -1,0 +1,73 @@
+{
+  "history": {
+    "title": "Historial de Escaneos",
+    "newScan": "Nuevo Escaneo",
+    "search": "Buscar escaneos...",
+    "filterStatus": "Filtrar por estado",
+    "filterType": "Filtrar por tipo",
+    "all": "Todos"
+  },
+  "table": {
+    "id": "ID",
+    "target": "Objetivo",
+    "type": "Tipo",
+    "status": "Estado",
+    "startTime": "Inicio",
+    "duration": "Duración",
+    "actions": "Acciones"
+  },
+  "types": {
+    "portScan": "Escaneo de Puertos",
+    "webScan": "Análisis Web",
+    "fullAudit": "Auditoría Completa"
+  },
+  "new": {
+    "title": "Lanzar Nuevo Escaneo",
+    "step1": "Tipo de Escaneo",
+    "step2": "Objetivo",
+    "step3": "Opciones Avanzadas",
+    "step4": "Confirmación",
+    "selectType": "Selecciona el tipo de análisis",
+    "enterTarget": "Introduce el dominio, IP o rango de IPs",
+    "targetPlaceholder": "ej. ejemplo.com o 192.168.1.1/24",
+    "options": {
+      "tools": "Herramientas a utilizar",
+      "speed": "Velocidad del escaneo",
+      "ports": "Rango de puertos",
+      "scripts": "Scripts personalizados"
+    },
+    "speed": {
+      "stealth": "Sigiloso",
+      "normal": "Normal",
+      "aggressive": "Agresivo"
+    },
+    "launch": "Lanzar Escaneo",
+    "summary": "Resumen de configuración"
+  },
+  "detail": {
+    "title": "Detalles del Escaneo",
+    "tabs": {
+      "ports": "Puertos",
+      "services": "Servicios",
+      "directories": "Directorios",
+      "vulnerabilities": "Vulnerabilidades",
+      "rawOutput": "Salida Raw",
+      "json": "Exportar JSON"
+    },
+    "port": "Puerto",
+    "state": "Estado",
+    "service": "Servicio",
+    "version": "Versión",
+    "protocol": "Protocolo"
+  },
+  "live": {
+    "title": "Escaneo en Ejecución",
+    "progress": "Progreso",
+    "portsFound": "Puertos encontrados",
+    "elapsed": "Tiempo transcurrido",
+    "minimize": "Minimizar",
+    "cancel": "Cancelar Escaneo",
+    "complete": "Completado",
+    "viewResults": "Ver Resultados"
+  }
+}

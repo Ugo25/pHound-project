@@ -1,0 +1,27 @@
+.widget {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  backdrop-filter: blur(var(--glass-blur));
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.widget:hover {
+  border-color: var(--glass-border);
+}
+
+.title {
+  margin: 0 0 20px 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.chartContainer {
+  flex: 1;
+  min-height: 300px;
+  width: 100%;
+}

@@ -1,0 +1,221 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.backLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.backLink:hover {
+  color: var(--accent-cyan);
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+.btnPrimary {
+  background: var(--accent-cyan);
+  color: var(--btn-primary-text);
+}
+
+.btnPrimary:hover {
+  background: #00d0e0;
+}
+
+.btnSecondary {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border);
+}
+
+.btnSecondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.documentWrapper {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  backdrop-filter: blur(var(--glass-blur));
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.document {
+  background: #fff;
+  color: #1a1a1a; /* Enforcing light theme for the document itself for realism */
+  max-width: 800px;
+  width: 100%;
+  padding: 48px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.docHeader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #0ea5e9;
+  letter-spacing: -1px;
+}
+
+.docMeta {
+  text-align: right;
+  font-size: 0.875rem;
+  color: #64748b;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.docMeta strong {
+  color: #334155;
+}
+
+.docTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f172a;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.docSection {
+  margin-bottom: 40px;
+}
+
+.docSection h2 {
+  font-size: 1.25rem;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.docSection p {
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.statBox {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background: #f8fafc;
+}
+
+.statNum {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.statLabel {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.finding {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.findingHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.findingBadge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.findingHeader h3 {
+  margin: 0;
+  font-size: 1.125rem;
+  color: #0f172a;
+}
+
+.finding h4 {
+  margin: 16px 0 8px 0;
+  color: #0f172a;
+  font-size: 1rem;
+}
+
+.docFooter {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .document {
+    padding: 24px;
+  }
+  .statsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .topBar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}

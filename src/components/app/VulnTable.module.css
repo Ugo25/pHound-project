@@ -1,0 +1,77 @@
+.tableContainer {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  backdrop-filter: blur(var(--glass-blur));
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th, .table td {
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.table th {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.875rem;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.cveId {
+  font-family: var(--font-family-mono);
+  color: var(--text-primary);
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.status.open { background: rgba(255, 71, 87, 0.1); color: var(--accent-red); }
+.status.fixed { background: rgba(0, 255, 136, 0.1); color: var(--accent-green); }
+.status.accepted { background: rgba(139, 92, 246, 0.1); color: var(--accent-purple); }
+.status.inprogress { background: rgba(255, 159, 67, 0.1); color: var(--accent-orange); }
+
+.actionBtn {
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+}
+
+.actionBtn:hover {
+  color: var(--accent-cyan);
+  background: rgba(0, 240, 255, 0.1);
+}

@@ -1,0 +1,73 @@
+{
+  "history": {
+    "title": "Scan History",
+    "newScan": "New Scan",
+    "search": "Search scans...",
+    "filterStatus": "Filter by status",
+    "filterType": "Filter by type",
+    "all": "All"
+  },
+  "table": {
+    "id": "ID",
+    "target": "Target",
+    "type": "Type",
+    "status": "Status",
+    "startTime": "Start Time",
+    "duration": "Duration",
+    "actions": "Actions"
+  },
+  "types": {
+    "portScan": "Port Scan",
+    "webScan": "Web Analysis",
+    "fullAudit": "Full Audit"
+  },
+  "new": {
+    "title": "Launch New Scan",
+    "step1": "Scan Type",
+    "step2": "Target",
+    "step3": "Advanced Options",
+    "step4": "Confirmation",
+    "selectType": "Select scan type",
+    "enterTarget": "Enter domain, IP or IP range",
+    "targetPlaceholder": "e.g., example.com or 192.168.1.1/24",
+    "options": {
+      "tools": "Tools to use",
+      "speed": "Scan speed",
+      "ports": "Port range",
+      "scripts": "Custom scripts"
+    },
+    "speed": {
+      "stealth": "Stealthy",
+      "normal": "Normal",
+      "aggressive": "Aggressive"
+    },
+    "launch": "Launch Scan",
+    "summary": "Configuration Summary"
+  },
+  "detail": {
+    "title": "Scan Details",
+    "tabs": {
+      "ports": "Ports",
+      "services": "Services",
+      "directories": "Directories",
+      "vulnerabilities": "Vulnerabilities",
+      "rawOutput": "Raw Output",
+      "json": "Export JSON"
+    },
+    "port": "Port",
+    "state": "State",
+    "service": "Service",
+    "version": "Version",
+    "protocol": "Protocol"
+  },
+  "live": {
+    "title": "Scan in Progress",
+    "progress": "Progress",
+    "portsFound": "Ports found",
+    "elapsed": "Elapsed time",
+    "minimize": "Minimize",
+    "cancel": "Cancel Scan",
+    "complete": "Completed",
+    "viewResults": "View Results"
+  }
+}

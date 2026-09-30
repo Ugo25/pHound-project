@@ -1,0 +1,153 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: October 1, 2026",
+    "sections": {
+      "identity": {
+        "title": "1. Identity and Address of the Responsible Party",
+        "content": "In compliance with the Federal Law on Protection of Personal Data Held by Private Parties (LFPDPPP), pHound Security SA de CV, located in Mexico City, Mexico, informs you that it is responsible for the treatment, confidentiality, use, and protection of the personal data you provide us."
+      },
+      "dataCollected": {
+        "title": "2. Personal Data Collected",
+        "content": "To carry out the purposes described in this privacy notice, we will use the following personal data: full name, email address, IP address, system activity logs, as well as information about the technological infrastructure that the user chooses to scan through our platform (target IP addresses, domains). We do not collect sensitive personal data."
+      },
+      "purposes": {
+        "title": "3. Purposes of Processing",
+        "content": "Your personal data will be used for the following primary purposes: (a) creation and management of your account on the pHound platform; (b) provision of security auditing and analysis services; (c) generation and sending of vulnerability reports; (d) technical support. Secondarily, we will use your information for (e) sending security newsletters and (f) statistical analysis to improve the platform."
+      },
+      "transfers": {
+        "title": "4. Data Transfers",
+        "content": "We inform you that your personal data will not be shared with third parties without your prior, express, and written consent, except for the exceptions provided in Article 37 of the LFPDPPP, as well as to comply with the requirements of competent authorities duly founded and motivated."
+      },
+      "arcoRights": {
+        "title": "5. ARCO Rights",
+        "content": "You have the right to know what personal data we have about you, what we use it for, and the conditions of its use (Access). Likewise, it is your right to request the correction of your personal information (Rectification); that we delete it from our records (Cancellation); as well as to oppose the use of your data for specific purposes (Opposition). To exercise any of the ARCO rights, you must send a request by email to privacy@phound.io with your identity accreditation."
+      },
+      "cookies": {
+        "title": "6. Use of Tracking Technologies",
+        "content": "We inform you that on our website we use cookies and other technologies, through which it is possible to monitor your behavior as a user, as well as to provide you with a better service and experience. See our Cookie Policy for more details."
+      },
+      "changes": {
+        "title": "7. Changes to the Privacy Notice",
+        "content": "This privacy notice may undergo modifications, changes, or updates derived from new legal requirements, our own needs for the services we offer, or for other causes. We promise to keep you informed about changes through our web platform."
+      },
+      "contact": {
+        "title": "8. Contact",
+        "content": "If you have any questions about this privacy notice, you can contact us via email at legal@phound.io."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms and Conditions of Use",
+    "lastUpdated": "Last updated: October 1, 2026",
+    "sections": {
+      "definitions": {
+        "title": "1. Definitions",
+        "content": "'Platform' refers to the pHound software. 'User' refers to anyone who uses the platform. 'Service' refers to the scanning, OSINT, and reporting tools of pHound."
+      },
+      "acceptance": {
+        "title": "2. Acceptance of Terms",
+        "content": "By accessing or using the pHound platform, you agree to be bound by these Terms and Conditions. If you disagree with any part of the terms, you may not access the Service."
+      },
+      "serviceDescription": {
+        "title": "3. Description of Service",
+        "content": "pHound provides cybersecurity auditing tools for strictly defensive use and security posture evaluation. The accuracy of scans and findings is not guaranteed and should be independently verified."
+      },
+      "registration": {
+        "title": "4. Account Registration",
+        "content": "To use the platform, you must provide accurate and complete information. You are responsible for maintaining the confidentiality of your account and password."
+      },
+      "permittedUse": {
+        "title": "5. Permitted Use and Authorization",
+        "content": "The User agrees to use the Platform ONLY against systems, networks, and applications for which they have EXPRESS WRITTEN AUTHORIZATION from the owners. The use of pHound without authorization is considered an illicit act."
+      },
+      "prohibitedUse": {
+        "title": "6. Prohibited Use and Legal Consequences",
+        "content": "It is strictly prohibited to use pHound to carry out unauthorized attacks, intrusions, or scans. In accordance with Articles 211 Bis 1 to 211 Bis 7 of the Federal Penal Code of Mexico, illicit access to computer systems is a crime punishable by imprisonment and fines. pHound will cooperate with authorities regarding any suspected misuse."
+      },
+      "intellectualProperty": {
+        "title": "7. Intellectual Property",
+        "content": "The platform, including its source code, design, interfaces, and artificial intelligence, is the property of pHound Security and is protected by international copyright laws."
+      },
+      "limitation": {
+        "title": "8. Limitation of Liability",
+        "content": "pHound is not liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use the service. The User assumes full responsibility for the actions executed through the platform."
+      },
+      "indemnification": {
+        "title": "9. Indemnification",
+        "content": "You agree to defend, indemnify, and hold harmless pHound from any claims, damages, obligations, losses, or expenses arising from your use of the platform in violation of these terms."
+      },
+      "termination": {
+        "title": "10. Termination",
+        "content": "We may suspend or terminate your access to the platform immediately, without prior notice or liability, for any reason, including without limitation if you breach the Terms."
+      },
+      "applicableLaw": {
+        "title": "11. Applicable Law",
+        "content": "These terms shall be governed and construed in accordance with the laws of the United Mexican States, without regard to its conflict of law provisions."
+      },
+      "modifications": {
+        "title": "12. Modifications",
+        "content": "We reserve the right to modify or replace these Terms at any time. Substantial revisions will be notified through the platform at least 30 days in advance."
+      }
+    }
+  },
+  "cookiesPolicy": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated: October 1, 2026",
+    "sections": {
+      "whatAreCookies": {
+        "title": "1. What are Cookies?",
+        "content": "Cookies are small text files that websites store on the user's device when visiting them. They serve to remember your preferences, keep your session logged in, and collect statistical data."
+      },
+      "typesUsed": {
+        "title": "2. Types of Cookies Used by pHound",
+        "content": "We use essential cookies (necessary for the operation of the platform and session security) and analytical cookies (to understand how users interact with our tool and improve it). We do not use third-party cookies for advertising purposes."
+      },
+      "manageCookies": {
+        "title": "3. Cookie Management",
+        "content": "You can configure your browser to block or alert you about cookies, but some parts of the pHound platform will not function properly without essential cookies."
+      },
+      "consequences": {
+        "title": "4. Consequences of Deactivation",
+        "content": "If you deactivate essential cookies, you will not be able to log in, perform scans, or maintain the state of your security operations, as the platform requires session state to function."
+      },
+      "contact": {
+        "title": "5. Contact",
+        "content": "For questions regarding our Cookie Policy, please contact privacy@phound.io."
+      }
+    }
+  },
+  "legalNotice": {
+    "title": "Legal and Ethical Notice",
+    "sections": {
+      "owner": {
+        "title": "1. Ownership of the Service",
+        "content": "The pHound platform is operated by the pHound Security team, based in Mexico. This software is designed exclusively for security professionals, researchers, and system administrators."
+      },
+      "framework": {
+        "title": "2. Ethical Framework",
+        "content": "Our mission is to democratize and simplify security auditing to defend legitimate infrastructures. We do not support, facilitate, or tolerate unauthorized offensive cyber activities (Black Hat)."
+      },
+      "responsibleDisclosure": {
+        "title": "3. Responsible Disclosure",
+        "content": "We encourage the practice of Responsible Disclosure. If through our tool you discover vulnerabilities in third-party systems serendipitously, we urge you to report it to the respective owners or the relevant national CERTs."
+      },
+      "ethicalUse": {
+        "title": "4. Mandatory Ethical Use",
+        "content": "The use of the tool implies acceptance of a code of conduct that prohibits corporate espionage, computer sabotage, data theft, and any activity that attempts against the privacy of third parties."
+      },
+      "disclaimer": {
+        "title": "5. Tool Disclaimer",
+        "content": "pHound consolidates various open-source tools. Analysis results (false positives/negatives) are inherent to the nature of security scanning. The tool is provided 'as is' without guarantees of absolute effectiveness in preventing breaches."
+      },
+      "intellectualProperty": {
+        "title": "6. Acknowledgment to Open Source Projects",
+        "content": "The platform integrates third-party tools whose rights belong to their respective authors. The results processed by our AI are dynamically generated and must be reviewed by a human specialist."
+      },
+      "contact": {
+        "title": "7. Abuse Reports",
+        "content": "If you detect that our platform is being used to conduct attacks against your networks, notify us immediately at abuse@phound.io attaching the corresponding logs."
+      }
+    }
+  }
+}

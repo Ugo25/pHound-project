@@ -1,0 +1,53 @@
+{
+  "title": "Settings",
+  "tabs": {
+    "profile": "Profile",
+    "general": "General",
+    "apiKeys": "API Keys",
+    "stealth": "Stealth & Evasion",
+    "notifications": "Notifications"
+  },
+  "profile": {
+    "name": "Name",
+    "email": "Email Address",
+    "avatar": "Avatar",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password"
+  },
+  "general": {
+    "language": "Interface Language",
+    "theme": "Theme",
+    "timezone": "Timezone"
+  },
+  "apiKeys": {
+    "title": "API Keys Management",
+    "openai": "OpenAI API Key (For AI reports)",
+    "shodan": "Shodan API Key",
+    "virustotal": "VirusTotal API Key",
+    "show": "Show",
+    "copy": "Copy",
+    "regenerate": "Regenerate",
+    "add": "Add Key"
+  },
+  "stealth": {
+    "title": "Evasion Settings",
+    "level": "Default Stealth Level",
+    "none": "None (Aggressive)",
+    "basic": "Basic (Slight delays)",
+    "advanced": "Advanced (Fragmentation & Random timing)",
+    "proxy": "Proxy Chains",
+    "rateLimit": "Rate Limiting",
+    "vpn": "VPN Configuration"
+  },
+  "notifications": {
+    "title": "Alert Preferences",
+    "email": "Email Notifications",
+    "scanComplete": "When a scan completes",
+    "vulnAlert": "Critical vulnerability alerts",
+    "weeklyReport": "Weekly summary"
+  },
+  "save": "Save Changes",
+  "saved": "Changes saved successfully"
+}

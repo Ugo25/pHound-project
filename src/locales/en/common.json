@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "docs": "Documentation",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "about": "About",
+    "faq": "FAQ",
+    "login": "Log In",
+    "register": "Register",
+    "logout": "Log Out",
+    "dashboard": "Dashboard"
+  },
+  "footer": {
+    "product": "Product",
+    "legal": "Legal",
+    "company": "Company",
+    "connect": "Connect",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "cookies": "Cookie Policy",
+    "legalNotice": "Legal Notice",
+    "rights": "© 2026 pHound. All rights reserved."
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "export": "Export",
+    "download": "Download",
+    "copy": "Copy",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear"
+  },
+  "status": {
+    "completed": "Completed",
+    "inProgress": "In Progress",
+    "error": "Error",
+    "pending": "Pending",
+    "active": "Active",
+    "fixed": "Fixed",
+    "open": "Open"
+  },
+  "severity": {
+    "critical": "Critical",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "info": "Informational"
+  },
+  "cookies": {
+    "banner": {
+      "message": "We use cookies to improve your experience.",
+      "accept": "Accept",
+      "reject": "Reject",
+      "configure": "Configure"
+    }
+  },
+  "language": {
+    "es": "Español",
+    "en": "English"
+  },
+  "loading": "Loading...",
+  "noResults": "No results found.",
+  "error": {
+    "generic": "An unexpected error occurred.",
+    "notFound": "Page not found."
+  }
+}

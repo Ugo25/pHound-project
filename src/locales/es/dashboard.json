@@ -1,0 +1,31 @@
+{
+  "title": "Dashboard",
+  "welcome": "Bienvenido de vuelta",
+  "stats": {
+    "totalScans": "Escaneos Totales",
+    "activeVulns": "Vulnerabilidades Activas",
+    "avgRisk": "Riesgo Promedio",
+    "reportsGenerated": "Reportes Generados",
+    "trend": {
+      "up": "Aumento del {{value}}% respecto al mes pasado",
+      "down": "Reducción del {{value}}% respecto al mes pasado"
+    }
+  },
+  "chart": {
+    "title": "Vulnerabilidades por Severidad",
+    "count": "Cantidad"
+  },
+  "activity": {
+    "title": "Actividad Reciente"
+  },
+  "recentScans": {
+    "title": "Escaneos Recientes",
+    "viewAll": "Ver todos"
+  },
+  "quickActions": {
+    "title": "Acciones Rápidas",
+    "newScan": "Nuevo Escaneo",
+    "osint": "Análisis OSINT",
+    "report": "Generar Reporte"
+  }
+}

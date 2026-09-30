@@ -1,0 +1,35 @@
+{
+  "title": "Reportes",
+  "generate": "Generar Nuevo Reporte",
+  "types": {
+    "technical": "Técnico",
+    "executive": "Ejecutivo",
+    "mixed": "Mixto"
+  },
+  "detail": {
+    "summary": "Resumen Ejecutivo",
+    "findings": "Hallazgos Técnicos",
+    "recommendations": "Recomendaciones",
+    "statistics": "Estadísticas"
+  },
+  "generate": {
+    "title": "Configuración del Reporte",
+    "selectScans": "Seleccionar Escaneos",
+    "reportType": "Tipo de Reporte",
+    "detailLevel": "Nivel de Detalle",
+    "language": "Idioma del Reporte",
+    "level": {
+      "summary": "Resumido",
+      "standard": "Estándar",
+      "detailed": "Detallado"
+    },
+    "submit": "Generar con IA",
+    "progress": {
+      "analyzing": "Analizando resultados...",
+      "recommendations": "Generando recomendaciones con IA...",
+      "compiling": "Compilando documento final..."
+    },
+    "complete": "Generación Completada",
+    "viewFull": "Ver Reporte Completo"
+  }
+}

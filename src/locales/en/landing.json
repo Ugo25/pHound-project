@@ -1,0 +1,122 @@
+{
+  "hero": {
+    "title": "pHound",
+    "subtitle": "Integrated cybersecurity auditing suite",
+    "typewriter": [
+      "OSINT",
+      "Active Scanning",
+      "AI",
+      "Docker"
+    ],
+    "cta": {
+      "start": "Get Started Now",
+      "docs": "View Documentation"
+    }
+  },
+  "problem": {
+    "title": "The Problem",
+    "time": {
+      "title": "40% of time wasted",
+      "desc": "Auditors waste valuable time configuring and connecting tools instead of analyzing vulnerabilities."
+    },
+    "tools": {
+      "title": "10+ fragmented tools",
+      "desc": "Using multiple isolated tools leads to inconsistent results and makes data correlation difficult."
+    },
+    "alerts": {
+      "title": "Alert fatigue",
+      "desc": "Thousands of false positives overwhelm security teams, hiding real threats."
+    }
+  },
+  "solution": {
+    "title": "The Solution",
+    "step1": {
+      "title": "Unified Scanning",
+      "desc": "Integrate all your testing from a single centralized platform."
+    },
+    "step2": {
+      "title": "Intelligent Analysis",
+      "desc": "Filter out false positives using advanced artificial intelligence."
+    },
+    "step3": {
+      "title": "Rapid Deployment",
+      "desc": "Deploy easily with ready-to-use Docker containers."
+    },
+    "step4": {
+      "title": "Clear Reporting",
+      "desc": "Generate technical and executive reports in seconds."
+    }
+  },
+  "features": {
+    "title": "Features",
+    "osint": {
+      "title": "Open Source Intelligence",
+      "desc": "Gather public information about targets in an automated and structured way."
+    },
+    "scan": {
+      "title": "Active Vulnerability Scanning",
+      "desc": "Discover open ports, outdated services, and security flaws in real time."
+    },
+    "json": {
+      "title": "Universal JSON Integration",
+      "desc": "Import and export results in JSON format compatible with industry-standard tools."
+    },
+    "ai": {
+      "title": "AI Assistance",
+      "desc": "Get mitigation recommendations and contextual analysis powered by AI."
+    },
+    "docker": {
+      "title": "Containerized Architecture",
+      "desc": "Secure and scalable deployment based on Docker containers."
+    },
+    "dashboard": {
+      "title": "Intuitive Dashboard",
+      "desc": "Visualize your security status with clear, actionable metrics."
+    }
+  },
+  "stats": {
+    "title": "Cybersecurity in Mexico",
+    "attacks": {
+      "value": "85B+",
+      "label": "Cyberattack attempts (2025)"
+    },
+    "phishing": {
+      "value": "60%",
+      "label": "Increase in phishing attacks"
+    },
+    "companies": {
+      "value": "73%",
+      "label": "Mexican companies breached"
+    },
+    "reduction": {
+      "value": "-40%",
+      "label": "Time reduction with pHound"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "members": {
+      "hugo": {
+        "name": "Hugo Acosta",
+        "role": "Backend & Cybersecurity Developer"
+      },
+      "nolberto": {
+        "name": "Camacho Nolberto",
+        "role": "Systems Architect"
+      },
+      "ingrit": {
+        "name": "Rios Ingrit",
+        "role": "Frontend Developer"
+      },
+      "johany": {
+        "name": "Johany González",
+        "role": "Security & AI Analyst"
+      }
+    }
+  },
+  "cta": {
+    "title": "Protect your infrastructure today",
+    "subtitle": "Join the security teams already automating their audits with pHound.",
+    "button": "Create your free account"
+  }
+}

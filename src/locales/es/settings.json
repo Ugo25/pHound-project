@@ -1,0 +1,53 @@
+{
+  "title": "Configuración",
+  "tabs": {
+    "profile": "Perfil",
+    "general": "General",
+    "apiKeys": "Claves API",
+    "stealth": "Evasión y Sigilo",
+    "notifications": "Notificaciones"
+  },
+  "profile": {
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "avatar": "Avatar",
+    "changePassword": "Cambiar Contraseña",
+    "currentPassword": "Contraseña Actual",
+    "newPassword": "Nueva Contraseña",
+    "confirmPassword": "Confirmar Nueva Contraseña"
+  },
+  "general": {
+    "language": "Idioma de la Interfaz",
+    "theme": "Tema",
+    "timezone": "Zona Horaria"
+  },
+  "apiKeys": {
+    "title": "Gestión de Claves API",
+    "openai": "OpenAI API Key (Para reportes IA)",
+    "shodan": "Shodan API Key",
+    "virustotal": "VirusTotal API Key",
+    "show": "Mostrar",
+    "copy": "Copiar",
+    "regenerate": "Regenerar",
+    "add": "Agregar Clave"
+  },
+  "stealth": {
+    "title": "Configuración de Evasión",
+    "level": "Nivel de Sigilo Predeterminado",
+    "none": "Ninguno (Agresivo)",
+    "basic": "Básico (Retrasos leves)",
+    "advanced": "Avanzado (Fragmentación y Tiempos aleatorios)",
+    "proxy": "Cadenas de Proxies (ProxyChains)",
+    "rateLimit": "Límite de Peticiones (Rate Limiting)",
+    "vpn": "Configuración VPN"
+  },
+  "notifications": {
+    "title": "Preferencias de Alertas",
+    "email": "Notificaciones por Correo",
+    "scanComplete": "Cuando un escaneo finaliza",
+    "vulnAlert": "Alertas de vulnerabilidades críticas",
+    "weeklyReport": "Resumen semanal"
+  },
+  "save": "Guardar Cambios",
+  "saved": "Cambios guardados exitosamente"
+}

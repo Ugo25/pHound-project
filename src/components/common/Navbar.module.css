@@ -1,0 +1,127 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  background: transparent;
+  padding: 1.5rem 0;
+}
+
+.scrolled {
+  background: var(--bg-secondary);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--glass-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  z-index: 1001;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.brandName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navList {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLink {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  font-size: 0.95rem;
+}
+
+.navLink:hover, .navLink.active {
+  color: var(--text-primary);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mobileToggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  z-index: 1001;
+}
+
+@media (max-width: 900px) {
+  .mobileToggle {
+    display: block;
+  }
+  
+  .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100vh;
+    background: var(--bg-primary);
+    flex-direction: column;
+    padding: 6rem 2rem 2rem;
+    transition: right 0.3s ease;
+    box-shadow: -5px 0 30px rgba(0,0,0,0.5);
+    align-items: flex-start;
+  }
+  
+  .mobileOpen {
+    right: 0;
+  }
+  
+  .navList {
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+  }
+  
+  .actions {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 2rem;
+    gap: 1.5rem;
+  }
+}

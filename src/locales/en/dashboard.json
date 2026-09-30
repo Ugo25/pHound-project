@@ -1,0 +1,31 @@
+{
+  "title": "Dashboard",
+  "welcome": "Welcome back",
+  "stats": {
+    "totalScans": "Total Scans",
+    "activeVulns": "Active Vulnerabilities",
+    "avgRisk": "Average Risk",
+    "reportsGenerated": "Reports Generated",
+    "trend": {
+      "up": "{{value}}% increase compared to last month",
+      "down": "{{value}}% decrease compared to last month"
+    }
+  },
+  "chart": {
+    "title": "Vulnerabilities by Severity",
+    "count": "Count"
+  },
+  "activity": {
+    "title": "Recent Activity"
+  },
+  "recentScans": {
+    "title": "Recent Scans",
+    "viewAll": "View all"
+  },
+  "quickActions": {
+    "title": "Quick Actions",
+    "newScan": "New Scan",
+    "osint": "OSINT Analysis",
+    "report": "Generate Report"
+  }
+}

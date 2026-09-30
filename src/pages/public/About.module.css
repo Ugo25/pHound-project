@@ -1,0 +1,221 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--text-primary);
+}
+
+.missionVision {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 2.5rem;
+  backdrop-filter: blur(var(--glass-blur));
+}
+
+.card h2 {
+  margin: 1.5rem 0 1rem;
+  color: var(--text-primary);
+  font-size: 1.5rem;
+}
+
+.card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.philosophy {
+  background: var(--bg-tertiary);
+  border-radius: 16px;
+  padding: 3rem;
+  border: 1px solid var(--glass-border);
+  text-align: center;
+}
+
+.philosophyContent {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.philosophyContent h2 {
+  font-size: 2rem;
+  color: var(--text-primary);
+}
+
+.philosophyContent p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+/* TIMELINE */
+.timelineContainer {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 2rem;
+}
+
+.timelineContainer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: var(--glass-border);
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timelineDot, .timelineDotActive {
+  position: absolute;
+  left: -2.4rem;
+  top: 0.5rem;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--bg-primary);
+  border: 3px solid var(--glass-border);
+}
+
+.timelineDotActive {
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 10px var(--accent-cyan);
+}
+
+.timelineContent {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.timelineContent h3 {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.timelineContent p {
+  color: var(--text-secondary);
+}
+
+/* ACADEMIC */
+.academicCard {
+  background: linear-gradient(135deg, rgba(255, 204, 0, 0.05), transparent);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 3rem;
+  text-align: center;
+  backdrop-filter: blur(var(--glass-blur));
+}
+
+.academicCard h2 {
+  margin: 1.5rem 0 1rem;
+  color: var(--text-primary);
+}
+
+.academicCard p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* TEAM */
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.teamCard {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 24px;
+  transition: transform 0.3s ease;
+}
+
+.teamCard:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-cyan);
+}
+
+.avatarPlaceholder {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1.5rem auto;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-cyan));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.teamCard h4 {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.teamCard p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.iconCyan { color: var(--accent-cyan); }
+.iconPurple { color: var(--accent-purple); }
+.iconGreen { color: var(--accent-green); }
+.iconYellow { color: var(--accent-yellow); }
+
+@media (max-width: 768px) {
+  .title { font-size: 2.5rem; }
+  .container { gap: 4rem; padding: 2rem 1rem; }
+}

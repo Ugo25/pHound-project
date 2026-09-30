@@ -1,0 +1,122 @@
+{
+  "hero": {
+    "title": "pHound",
+    "subtitle": "Suite integrada de auditoría de ciberseguridad",
+    "typewriter": [
+      "OSINT",
+      "Escaneo Activo",
+      "IA",
+      "Docker"
+    ],
+    "cta": {
+      "start": "Comenzar Ahora",
+      "docs": "Ver Documentación"
+    }
+  },
+  "problem": {
+    "title": "El Problema",
+    "time": {
+      "title": "40% del tiempo perdido",
+      "desc": "Los auditores pierden tiempo valioso configurando y conectando herramientas en lugar de analizar vulnerabilidades."
+    },
+    "tools": {
+      "title": "10+ herramientas fragmentadas",
+      "desc": "El uso de múltiples herramientas aisladas genera resultados inconsistentes y dificulta la correlación de datos."
+    },
+    "alerts": {
+      "title": "Fatiga de alertas",
+      "desc": "Miles de falsos positivos abruman a los equipos de seguridad, ocultando las amenazas reales."
+    }
+  },
+  "solution": {
+    "title": "La Solución",
+    "step1": {
+      "title": "Escaneo Unificado",
+      "desc": "Integra todas tus pruebas desde una sola plataforma centralizada."
+    },
+    "step2": {
+      "title": "Análisis Inteligente",
+      "desc": "Filtra falsos positivos utilizando inteligencia artificial avanzada."
+    },
+    "step3": {
+      "title": "Despliegue Rápido",
+      "desc": "Implementa fácilmente con contenedores Docker listos para usar."
+    },
+    "step4": {
+      "title": "Reportes Claros",
+      "desc": "Genera reportes técnicos y ejecutivos en segundos."
+    }
+  },
+  "features": {
+    "title": "Características",
+    "osint": {
+      "title": "Inteligencia de Fuentes Abiertas",
+      "desc": "Recopila información pública sobre objetivos de forma automatizada y estructurada."
+    },
+    "scan": {
+      "title": "Escaneo Activo de Vulnerabilidades",
+      "desc": "Descubre puertos abiertos, servicios desactualizados y fallos de seguridad en tiempo real."
+    },
+    "json": {
+      "title": "Integración JSON Universal",
+      "desc": "Importa y exporta resultados en formato JSON compatible con herramientas estándar de la industria."
+    },
+    "ai": {
+      "title": "Asistencia por Inteligencia Artificial",
+      "desc": "Obtén recomendaciones de mitigación y análisis contextual impulsado por IA."
+    },
+    "docker": {
+      "title": "Arquitectura en Contenedores",
+      "desc": "Despliegue seguro y escalable basado en contenedores Docker."
+    },
+    "dashboard": {
+      "title": "Panel de Control Intuitivo",
+      "desc": "Visualiza el estado de tu seguridad con métricas claras y accionables."
+    }
+  },
+  "stats": {
+    "title": "Ciberseguridad en México",
+    "attacks": {
+      "value": "85B+",
+      "label": "Intentos de ciberataques (2025)"
+    },
+    "phishing": {
+      "value": "60%",
+      "label": "Aumento en ataques de phishing"
+    },
+    "companies": {
+      "value": "73%",
+      "label": "Empresas mexicanas vulneradas"
+    },
+    "reduction": {
+      "value": "-40%",
+      "label": "Reducción de tiempo con pHound"
+    }
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "members": {
+      "hugo": {
+        "name": "Hugo Acosta",
+        "role": "Desarrollador Backend & Ciberseguridad"
+      },
+      "nolberto": {
+        "name": "Camacho Nolberto",
+        "role": "Arquitecto de Sistemas"
+      },
+      "ingrit": {
+        "name": "Rios Ingrit",
+        "role": "Desarrolladora Frontend"
+      },
+      "johany": {
+        "name": "Johany González",
+        "role": "Analista de Seguridad & IA"
+      }
+    }
+  },
+  "cta": {
+    "title": "Protege tu infraestructura hoy",
+    "subtitle": "Únete a los equipos de seguridad que ya están automatizando sus auditorías con pHound.",
+    "button": "Crea tu cuenta gratis"
+  }
+}

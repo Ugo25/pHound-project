@@ -1,0 +1,120 @@
+.container {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  background-color: var(--bg-primary);
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 800px;
+  background: var(--bg-secondary);
+  padding: 3rem;
+  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.title {
+  color: var(--accent-cyan);
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.lastUpdated {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section h2 {
+  color: var(--accent-purple);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--glass-border);
+  padding-bottom: 0.5rem;
+}
+
+.section p, .section ul {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.section li {
+  margin-bottom: 0.5rem;
+}
+
+.section a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+.tableContainer {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: var(--bg-tertiary);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th, .table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.table th {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+.table td {
+  color: var(--text-secondary);
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+@media print {
+  .container {
+    padding: 0;
+    background: white;
+  }
+  .content {
+    background: white;
+    color: black;
+    border: none;
+    max-width: 100%;
+  }
+  .title, .section h2, .table th {
+    color: black;
+  }
+  .section p, .section ul, .table td {
+    color: #333;
+  }
+  .table {
+    border: 1px solid #ddd;
+  }
+  .table th, .table td {
+    border-bottom: 1px solid #ddd;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "OSINT Intelligence",
+  "subtitle": "Open Source Intelligence Gathering",
+  "lookup": {
+    "placeholder": "Domain or IP Address",
+    "whois": "WHOIS Lookup",
+    "dns": "DNS Records",
+    "geoip": "IP Geolocation",
+    "subdomains": "Subdomain Enumeration"
+  },
+  "whois": {
+    "title": "WHOIS Information",
+    "registrant": "Registrant",
+    "org": "Organization",
+    "created": "Creation Date",
+    "expires": "Expiration Date",
+    "updated": "Last Updated",
+    "nameServers": "Name Servers"
+  },
+  "dns": {
+    "title": "DNS Records",
+    "type": "Type",
+    "value": "Value",
+    "ttl": "TTL"
+  },
+  "geoip": {
+    "title": "Geolocation",
+    "country": "Country",
+    "city": "City",
+    "isp": "ISP",
+    "asn": "ASN",
+    "coordinates": "Coordinates"
+  },
+  "subdomains": {
+    "title": "Discovered Subdomains",
+    "domain": "Subdomain",
+    "ip": "IP Address",
+    "status": "Status"
+  },
+  "export": "Export JSON",
+  "results": {
+    "title": "Analysis Results",
+    "timeline": "Timeline",
+    "sources": "Sources Consulted"
+  }
+}

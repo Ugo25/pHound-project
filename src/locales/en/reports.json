@@ -1,0 +1,35 @@
+{
+  "title": "Reports",
+  "generate": "Generate New Report",
+  "types": {
+    "technical": "Technical",
+    "executive": "Executive",
+    "mixed": "Mixed"
+  },
+  "detail": {
+    "summary": "Executive Summary",
+    "findings": "Technical Findings",
+    "recommendations": "Recommendations",
+    "statistics": "Statistics"
+  },
+  "generate": {
+    "title": "Report Configuration",
+    "selectScans": "Select Scans",
+    "reportType": "Report Type",
+    "detailLevel": "Detail Level",
+    "language": "Report Language",
+    "level": {
+      "summary": "Summarized",
+      "standard": "Standard",
+      "detailed": "Detailed"
+    },
+    "submit": "Generate with AI",
+    "progress": {
+      "analyzing": "Analyzing results...",
+      "recommendations": "Generating AI recommendations...",
+      "compiling": "Compiling final document..."
+    },
+    "complete": "Generation Complete",
+    "viewFull": "View Full Report"
+  }
+}
